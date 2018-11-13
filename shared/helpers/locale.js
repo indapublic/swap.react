@@ -4,6 +4,7 @@ export const reduceMessages = result =>
     {}
   )
 
-export const currentLocale = () => 'en'
-
 export const defaultLocale = () => 'en'
+
+export const localisePrefix = '/:locale(en|ru)?'
+export const localisedUrl = () => ``
